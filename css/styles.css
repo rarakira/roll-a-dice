@@ -1,0 +1,66 @@
+body {
+  background-color: #5512a0;
+  color: #f2f0e6;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/* colours
+Main blue - #5512a0
+Main greyish - #f2f0e6
+Secondary blue - #35c0cb
+Secondary pink - #ff7479
+Secondary orange - #fcb25c */
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #ff7479;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+.dice {
+  width: 40%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.main {
+  padding: 7% 5%;
+}
+
+.player {
+  color: #35c0cb;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .dice {
+    margin-bottom: 5%;
+    width: 100%;
+  }
+
+  .h1-small {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .player {
+    font-size: 1.5rem;
+  }
+}
